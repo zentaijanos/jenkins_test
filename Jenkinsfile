@@ -17,7 +17,7 @@ pipeline {
         
         stage('Cleanup Workspace') {
             steps {
-                cleanWs()
+                
                 sh """
                 echo "Cleaned Up Workspace For Project"
                 """

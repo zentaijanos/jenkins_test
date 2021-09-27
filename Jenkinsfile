@@ -8,6 +8,7 @@ pipeline {
             steps {
                 echo "Here also!"
             }
+        }    
         
         stage('Test') {
             steps {
@@ -15,5 +16,4 @@ pipeline {
             }
         }
     }
-}
 }

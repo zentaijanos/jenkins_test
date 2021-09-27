@@ -1,7 +1,10 @@
 pipeline {
+    agent { label 'master' }
     stages {
-        stage('Init') {
-            echo 'Works'
+        stage('build') {
+            steps {
+                echo "Hello World!"
+            }
         }
     }
 }

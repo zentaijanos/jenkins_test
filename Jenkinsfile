@@ -1,5 +1,7 @@
 pipeline {
-    stage('Init') {
-        echo 'Works'
+    stages {
+        stage('Init') {
+            echo 'Works'
+        }
     }
 }
